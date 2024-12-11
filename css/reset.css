@@ -1,0 +1,30 @@
+/*边框的清零操作*/
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input
+{margin:0;padding:0;}
+/*其中，fieldset给表单加外边框*/
+
+/*常用元素的重置操作*/
+body{font-size:12px;}
+img{border:none;} /*有些浏览器默认加上蓝色外边框*/
+input,select,textarea{outline:none;}
+textarea{resize:none;}/*设置不可以调整文本域*/
+a{text-decoration:none;}
+
+/*清浮动*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{*zoom:1;}
+/*使用方法<div class="head clearfix"></div>*/
+
+/*选择*/
+::selection{backgroubd-color:#669900; color:#ffffff; text-shadow:none;}
+::-moz-selection{background-color:#669900;color:#ffffff;text-shadow:none;}
+
+/*去掉a的下划线*/
+a{
+    text-decoration: none;
+    color: 232323;
+}
+ul, li {
+    list-style: none;
+}
+

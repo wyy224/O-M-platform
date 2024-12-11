@@ -1,0 +1,280 @@
+/* left */
+
+.main-center .left {
+    width: 60%;
+    height: 100%;
+    background-color: rgba(81, 225, 246, 0.06);
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.main-center .left .little-title {
+    display: none;
+}
+
+.main-center .left .center-top {
+    display: flex;
+    height: 4rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-center .left .content {
+    width: 100%;
+    height: calc(100% - 6.5rem);
+    color: #fff;
+    padding: 1rem;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+}
+
+.main-center .left .little-title.actived,
+.main-center .left .content.actived {
+    display: block;
+}
+
+/* .main-center .left .content ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.custom-select {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    /* padding: 5px; */
+    background-color: #fff;
+    color: #000;
+    /* font-size: 14px; */
+    /* line-height: 30px; */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #000;
+    z-index: 99;
+}
+
+.selected {
+    padding: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.options {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+    cursor: pointer;
+}
+
+.option {
+    padding: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.option.selected {
+    font-weight: bold;
+}
+
+.custom-select .options .option:hover {
+    background-color: #e9e9e9;
+}
+
+.main-center .left .content ul {
+    width: 100%;
+    height:97%;
+    /* flex-wrap: wrap; */
+}
+
+.main-center .left .content.tongdao ul li {
+    /* width: 50%; */
+    /* height: 25%; */
+    width: 100%;
+    height: 21%;
+    display: flex;
+    justify-content: left;
+}
+
+.main-center .left .content.zhendong ul li,
+.main-center .left .content.wendu ul li,
+.main-center .left .content.zaosheng ul li,
+.main-center .left .content.zhuansu ul li {
+    width: 100%;
+    height: 12.5%;
+    /* height: 25%; */
+    display: flex;
+    justify-content: left;
+}
+.left-title {
+    width: 6rem;
+}
+#tongdao1,
+#tongdao2,
+#tongdao3,
+#tongdao4,
+#tongdao5,
+#tongdao6,
+#tongdao7,
+#tongdao8,
+#tongdao9,
+#tongdao10,
+#tongdao11,
+#tongdao12 ,
+#zhendong1,
+#zhendong2,
+#zhendong3,
+#zhendong4 ,
+#wendu1,
+#wendu2,
+#wendu3,
+#wendu4,
+#zaosheng1 ,
+#zhuansu1 {
+    width: calc(100% - 6rem);
+    /* width: 100%; */
+    height: 100%;
+}
+
+
+/* right */
+
+.main-center .right {
+    width: 40%;
+    height: 100%;
+}
+
+.main-center .content {
+    width: 40%;
+    height: calc(100% - 2.5rem);
+}
+
+/* .main-center .content {
+    width: 40%;
+    height: calc(100% - 2.5rem);
+} */
+
+
+/* right-top */
+
+.main-center .right {
+    width: 40%;
+    height: 100%;
+    background-color: rgba(81, 225, 246, 0.06);
+    margin-bottom: 1rem;
+}
+
+.date-picker {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.0rem;
+}
+
+.date-picker label {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.date-input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    width: 70px;
+}
+#date{
+    width: 130px;
+}
+
+.data-type-select{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    width: 70px;
+}
+
+.date-picker-button {
+    background: url(../img/kuang1.png) 100% 100% no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    /* width: 100%; */
+    /* height: 100%; */
+    width: 6.5rem;
+    height: 2.5rem;
+    margin: 0 1rem;
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date-picker-button:hover {
+    background: url(../img/kuang.png) 100% 100% no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+}
+
+
+/* 查询按钮 */
+.select-button {
+    background: url(../img/kuang1.png) 100% 100% no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    /* width: 100%; */
+    /* height: 100%; */
+    width: 6.5rem;
+    height: 2.5rem;
+    margin: 0 1rem;
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-button:hover {
+    background: url(../img/kuang.png) 100% 100% no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+}
+
+/* 分页 */
+#pagination {
+    text-align: center;
+    /* margin-top: 20px; */
+    position: absolute;
+    right: 2rem;
+    bottom: 30px;
+}
+
+#pagination a {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: #333;
+}
+
+#pagination a.active,
+#pagination a:hover {
+    background-color: #333;
+    color: #fff;
+}

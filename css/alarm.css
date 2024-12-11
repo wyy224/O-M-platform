@@ -1,0 +1,259 @@
+.main-center {
+    /* width: 100%; */
+    /* height: calc(100vh - 2.5rem); */
+    background-color: rgba(81, 225, 246, 0.06);
+    display: block;
+}
+
+/* table */
+.main-center .main-center-top {
+    width: 100%;
+    height: 67%;
+    box-sizing: border-box;
+}
+
+/* options */
+.main-center .main-center-top .optionsList form{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 .7rem;
+    color: #fff;
+    flex-wrap: wrap;
+    height: 20%;
+}
+
+/* 按钮 */
+.select-button {
+    background: url(../img/kuang1.png) 100% 100% no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    /* width: 100%; */
+    /* height: 100%; */
+    width: 4.5rem;
+    height: 2.5rem;
+    padding: 0 .5rem;
+    margin: 0 .3rem;
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-button:hover {
+    background: url(../img/kuang.png) 100% 100% no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+}
+
+.date-picker {
+    display: flex;
+    align-items: center;
+    padding: .3rem;
+    box-sizing: border-box;
+    width: 18%;
+    color: #fff;
+}
+
+.date-picker .jiansuo {
+    font-size: 1.2rem;
+}
+
+.date-picker:first-child,
+.date-picker:nth-child(6) {
+    width: 28%;
+}
+
+.date-picker ul {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.date-picker ul.select-btn {
+    justify-content: flex-end;
+}
+
+
+/* .date-picker li {
+    list-style: none;
+    margin: 0 10px;
+} */
+/* 
+.date-picker label {
+    margin-right: 10px;
+} */
+
+.date-input {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 100%;
+    background-color: #0f3354;
+    border: none;
+    color: #fff;
+    padding: .5rem .3rem;
+    font-size: 1rem;
+    /* width: 150px; */
+    /* 根据需要调整宽度 */
+}
+
+.date-picker-button {
+    background: url(../img/kuang1.png) 100% 100% no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    /* width: 100%; */
+    /* height: 100%; */
+    width: 6.5rem;
+    height: 2.5rem;
+    margin: 0 1rem;
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date-picker-button:hover {
+    background: url(../img/kuang.png) 100% 100% no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+}
+
+/* table */
+.tableList {
+    /* height: auto; */
+    overflow-y: auto;
+    padding: 0 1rem;
+    height: 75%;
+}
+.hiddenInp {
+    display: none;
+}
+
+/* table */
+.tabtop13 {
+    margin-top: 13px;
+    border-collapse: collapse;
+}
+/* 修改原生滚动条样式 */
+.tableList::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  .tableList::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .tableList::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  .tableList::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.tabtop13 td {
+    /* background-color: #ffffff; */
+    color: #fff;
+    height: 2rem;
+    line-height: 150%;
+    font-size: 1rem;
+}
+
+.font-center {
+    text-align: center
+}
+
+.btbg {
+    background: #203759 !important;
+}
+
+.biaoti {
+    font-family: 微软雅黑;
+    font-size: 26px;
+    font-weight: bold;
+    border-bottom: 1px dashed #CCCCCC;
+}
+
+.titfont {
+
+    font-family: 微软雅黑;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: url(../images/ico3.gif) no-repeat 15px center;
+    background-color: #e9faff;
+}
+
+.row {
+    border-bottom: 1px solid #203759;
+    height: 3rem;
+}
+
+
+/* bottom */
+
+.main-center .center-bottom {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-center .center-bottom .bottom-left,
+.main-center .center-bottom .bottom-right { 
+    width: 60%;
+    height: 100%;
+    box-sizing: border-box;
+    margin-right: 1rem;
+    color: #fff;
+
+}
+
+.main-center .center-bottom .bottom-right {
+    width: 40%;
+}
+
+.main-center .center-bottom .bottom-left .datainfo,
+.main-center .center-bottom .bottom-right .detailInfo {
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+
+}
+
+.main-center .center-bottom .bottom-left .datainfo ul li,
+.main-center .center-bottom .bottom-right .detailInfo ul li {
+    padding: .3rem 0;
+}
+
+.main-center .center-bottom .bottom-left .datainfo ul li .relatedData{
+    color: #08c1af;
+}
+
+
+
+/* 隐藏原生日期选择器的图标 */
+/* input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+} */
+
+/* 自定义的图标样式 */
+/* input[type="date"] {
+    padding-right: 30px; 
+    position: relative;
+}
+
+input[type="date"]::after {
+    content: url("../img/date.png");
+    font-size: 20px; 
+    position: absolute;
+    right: 5px;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    pointer-events: none; 
+} */
